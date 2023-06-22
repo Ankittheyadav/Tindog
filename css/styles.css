@@ -1,0 +1,157 @@
+#title{
+    background-color: #ff4c68;
+    color: #fff; /*title color*/
+}
+h1{
+    font-family: "Montserrat",sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+
+.container-fluid{
+    padding: 4% 15%;
+}
+
+.body{
+    font-family: "Montserrat",sans-serif;
+}
+/* navigation bar*/
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: lighter;
+}
+/* download button */
+.download-button{
+    margin: 5% 3% 5% 0; 
+}
+/* title image */
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+/* features */
+#features{
+    padding: 7% 20%;
+
+}
+
+.features-box{
+    text-align: center;
+    padding: 5%;
+}
+
+h3{
+    font-family: "montserrat";
+    font-size: 1.25rem;
+    font-weight: 900;
+
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.icon{
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonial section*/
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff; /*title color*/
+}
+
+h2{
+    font-family:"Montserrat";
+    font-size:3rem;
+    line-height:1.5;
+    font-weight:900;
+   
+}
+.testimonial-image
+{
+    width:10%;
+    border-radius: 50%;
+    margin:20px;
+
+}
+
+/*press*/
+#press
+{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.press-logo{
+    width:15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item
+{
+    padding: 7% 15%;
+}
+
+#pricing
+{
+    text-align: center;
+    padding: 100px;
+}
+
+.pricing-column
+{
+    padding: 3% 2%;
+}
+
+@media(max-width:1028px) {
+    .title-img{
+        transform: rotate(0);
+    }
+}
+
+#cta
+{
+    text-align: center;
+    background-color: #ff4c68;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Montserrat";
+    font-size: 2.5rem ;
+    padding:7% 10%;
+}
+h4
+{
+    font-size: 3rem ;
+    line-height: 1.5 ;
+    font-weight: 900 ;  
+    color: white ; 
+}
+.white-section
+{
+    background-color: #ffff;
+    text-align: center;
+}
